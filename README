@@ -1,0 +1,3 @@
+This repo will give some ruby example scripts:
+
+1. get_rows_from_each_table.rb : will give you the row count in every table in a database.
