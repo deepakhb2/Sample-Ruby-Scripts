@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'dbi'
 
-db_handler = DBI.connect('DBI:Mysql:provian_latest_db:localhost', 'root', 'root')
+db_handler = DBI.connect('DBI:Mysql:database_name:localhost', 'user_name', 'password')
 
 # Collect all Tables
 sql_1 = db_handler.prepare('SHOW tables;')
